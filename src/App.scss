@@ -1,0 +1,135 @@
+//초기화
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ul, li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+
+/*--------------------Nav.jsx-------------------*/
+.header{
+  width: 100%;
+  padding: 0 30px;
+  border-bottom: 1px solid #ddd;
+  .header-inner{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    .logo{
+      a{
+        img{width: 120px;}
+      }
+    }
+    .nav{
+      display: block;
+      >ul{
+        display: flex;
+        align-items: center;
+        >li{
+          >a{ }
+        }
+      }
+      .loginAndSignup{
+        position: absolute;
+        top: 30px;
+        right: 10px;
+        li{
+          cursor: pointer;
+          color: #333;
+          margin: 0 15px;
+          font-size: 14px;
+          &:hover{
+            color: red;
+          }
+          a{
+          }
+        }
+      }
+      // .menu{
+      //   margin-top: 12px;
+      //   li{
+      //     a{
+      //       color: #333;
+      //       font-size: 15px;
+      //     }
+      //     &:first-child a{
+      //       margin-right: 10px;
+      //     }
+      //   }
+      // }
+    }
+    .movieNav{
+      display: none;
+    }
+    @media screen and (max-width: 720px) {  //720px보다 작아지면 서브메뉴창이 뜸
+      .nav{display: none;}
+      .movieNav{
+        display: block;
+
+        .mobile-header-drop{
+          position: absolute;
+          top: 0;
+          left: -30px;  //왼쪽에 완전히 붙게 설정
+          width: 70%;
+          height: 100vh;
+          background: rgba(0, 0, 0, 0.9);
+          padding: 20px;
+          display: none;
+
+          .mobile-header-nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 90vh;
+            .mobile-header-menu{
+              >a{
+                padding: 10px;
+                background-color: #ffff;
+                border-radius: 10px;
+                display: block;
+                text-align: center;
+                margin-bottom: 30px;
+                img{
+                  width: 130px;
+                  height: auto;
+                  margin: 0 auto;
+                }
+              }
+              ul{
+                li{
+                  padding: 20px 5px;
+                  border-bottom: 1px solid #ccc;
+                  a{
+                    color: rgba(255, 255, 255, 0.7);
+                    &:hover{
+                      color: red; //색상 변경예정
+                    }
+                  }
+                }
+              }
+            }
+            .mobile-header-loginJoin{
+              ul{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                li{
+                  a{
+                    color: #ccc;
+                    font-size: 12px;
+                    margin: 0 15px;
+                    &:hover{
+                      color: red; //색상 변경예정
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
