@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react_petshop/static/css/main.78691de4.css",
-    "main.js": "/react_petshop/static/js/main.646d03df.js",
+    "main.js": "/react_petshop/static/js/main.282cce2d.js",
     "static/media/best03.jpg": "/react_petshop/static/media/best03.0f1e3f09795b3502f33d.jpg",
     "static/media/best02.jpg": "/react_petshop/static/media/best02.06df8960faeb6e3143eb.jpg",
     "static/media/best01.jpg": "/react_petshop/static/media/best01.9e92bb4ad9786f21ba6a.jpg",
     "index.html": "/react_petshop/index.html",
     "main.78691de4.css.map": "/react_petshop/static/css/main.78691de4.css.map",
-    "main.646d03df.js.map": "/react_petshop/static/js/main.646d03df.js.map"
+    "main.282cce2d.js.map": "/react_petshop/static/js/main.282cce2d.js.map"
   },
   "entrypoints": [
     "static/css/main.78691de4.css",
-    "static/js/main.646d03df.js"
+    "static/js/main.282cce2d.js"
   ]
 }
