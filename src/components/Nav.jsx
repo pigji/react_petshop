@@ -3,7 +3,6 @@ import { NavLink, Link } from 'react-router-dom';  //링크태그
 import { RiMenu3Fill } from "react-icons/ri"; //아이콘
 import { IoCloseSharp } from "react-icons/io5"; //아이콘
 import $ from 'jquery'; //리액트 제이쿼리
-import { Color } from 'antd/es/color-picker';
 
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(true);
