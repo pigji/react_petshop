@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.98fd8894.css",
-    "main.js": "/static/js/main.e20b3a42.js",
-    "static/media/best03.jpg": "/static/media/best03.0f1e3f09795b3502f33d.jpg",
-    "static/media/best02.jpg": "/static/media/best02.06df8960faeb6e3143eb.jpg",
-    "static/media/best01.jpg": "/static/media/best01.9e92bb4ad9786f21ba6a.jpg",
-    "index.html": "/index.html",
-    "main.98fd8894.css.map": "/static/css/main.98fd8894.css.map",
-    "main.e20b3a42.js.map": "/static/js/main.e20b3a42.js.map"
+    "main.css": "/react_petshop/static/css/main.78691de4.css",
+    "main.js": "/react_petshop/static/js/main.646d03df.js",
+    "static/media/best03.jpg": "/react_petshop/static/media/best03.0f1e3f09795b3502f33d.jpg",
+    "static/media/best02.jpg": "/react_petshop/static/media/best02.06df8960faeb6e3143eb.jpg",
+    "static/media/best01.jpg": "/react_petshop/static/media/best01.9e92bb4ad9786f21ba6a.jpg",
+    "index.html": "/react_petshop/index.html",
+    "main.78691de4.css.map": "/react_petshop/static/css/main.78691de4.css.map",
+    "main.646d03df.js.map": "/react_petshop/static/js/main.646d03df.js.map"
   },
   "entrypoints": [
-    "static/css/main.98fd8894.css",
-    "static/js/main.e20b3a42.js"
+    "static/css/main.78691de4.css",
+    "static/js/main.646d03df.js"
   ]
 }
