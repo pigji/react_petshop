@@ -36,16 +36,21 @@ const Card = () => {
       onSwiper={(swiper) => console.log(swiper)} // 디버깅용
       onSlideChange={() => console.log("slide change")} // 디버깅용
     >
-      {datafresh.map((item, idx) => (
-        <SwiperSlide className="freshWrap">
-          <img src={process.env.PUBLIC_URL + item.img} alt={item.title} />
-          <div className="txt" key={idx}>
-            <span className="freshNumber">{item.id + 1}</span>
-            <strong>{item.title}</strong>
-            <span className="price">{item.price}</span>
-          </div>
-        </SwiperSlide>
-      ))}
+      {
+        datafresh.map((item, idx) => {
+          /* map함수를 사용하여 데이터 뿌려줌 */
+          return (
+            <SwiperSlide className="freshWrap">
+              <img src={process.env.PUBLIC_URL + item.img} alt={item.title} />
+              <div className="txt" key={idx}>
+                <span className="freshNumber">{item.id + 1}</span>
+                <strong>{item.title}</strong>
+                <span className="price">{item.price}</span>
+              </div>
+            </SwiperSlide>
+          )
+        })
+      }
     </Swiper>
   );
 };
