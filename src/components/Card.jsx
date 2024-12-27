@@ -12,7 +12,7 @@ import "swiper/css/autoplay";
 import datafresh from "../data/datafresh"; //datafresh.js 데이터 가져오기
 import "../components/FreshBox.scss"; //스타일
 
-const FreshBox = () => {
+const Card = () => {
   return (
     <Swiper
       className="freshboxswiper"
@@ -50,4 +50,4 @@ const FreshBox = () => {
   );
 };
 
-export default FreshBox;
+export default Card;
