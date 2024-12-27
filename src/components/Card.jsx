@@ -38,7 +38,7 @@ const FreshBox = () => {
     >
       {datafresh.map((item, idx) => (
         <SwiperSlide className="freshWrap">
-          <img src={item.img} alt="" />
+          <img src={process.env.PUBLIC_URL + item.img} alt={item.title} />
           <div className="txt" key={idx}>
             <span className="freshNumber">{item.id + 1}</span>
             <strong>{item.title}</strong>
