@@ -57,24 +57,13 @@ a{text-decoration: none; color: inherit;}
           margin: 0 15px;
           font-size: 14px;
           &:hover{
-            color: red;
+            color: #29aa92;
           }
           a{
           }
         }
       }
-      // .menu{
-      //   margin-top: 12px;
-      //   li{
-      //     a{
-      //       color: #333;
-      //       font-size: 15px;
-      //     }
-      //     &:first-child a{
-      //       margin-right: 10px;
-      //     }
-      //   }
-      // }
+
     }
     .movieNav{
       display: none;
@@ -278,17 +267,26 @@ a{text-decoration: none; color: inherit;}
         text-align: center;
         display: flex;
 
-        .swiperPrevBtn{}
-        .swiperNextBtn{}
-        .btn-auto{
-          .btn-stop{}
-          .btn-play{}
-        }
       }
     }
   }
 }
-
+/*-------------------footer.jsx--------------------*/
+.footer{
+  padding: 30px 0;
+  color: #bbb;
+  background-color: #555;
+  .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    .foot-addr{
+      .footLogo{}
+      .copy{}
+    }
+  }
+}
 
 /*-------------------미디어쿼리--------------------*/
 @media screen and (max-width:1200px) {
