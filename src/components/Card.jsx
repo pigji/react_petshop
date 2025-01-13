@@ -44,7 +44,7 @@ const Card = () => {
       {freshData.map((item, idx) => (
         <SwiperSlide  className="freshWrap">
         <Link to ={`/about/${item.id}`}>
-            <img src={item.img} alt="" />
+            <img src={process.env.PUBLIC_URL + item.img} alt="" />
             <div className="txt" key={idx}>
               <span className="freshNumber">{item.id+1}</span>
               <strong>{item.title}</strong>
