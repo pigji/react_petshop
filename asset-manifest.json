@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react_petshop/static/css/main.1d45d37d.css",
+    "main.js": "/react_petshop/static/js/main.0222f2b6.js",
+    "static/media/best03.jpg": "/react_petshop/static/media/best03.0f1e3f09795b3502f33d.jpg",
+    "static/media/best02.jpg": "/react_petshop/static/media/best02.06df8960faeb6e3143eb.jpg",
+    "static/media/best01.jpg": "/react_petshop/static/media/best01.9e92bb4ad9786f21ba6a.jpg",
+    "index.html": "/react_petshop/index.html",
+    "main.1d45d37d.css.map": "/react_petshop/static/css/main.1d45d37d.css.map",
+    "main.0222f2b6.js.map": "/react_petshop/static/js/main.0222f2b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d45d37d.css",
+    "static/js/main.0222f2b6.js"
+  ]
+}
