@@ -1,0 +1,104 @@
+.signWrap{
+  width: 100%;
+  max-width: 1000px;
+  margin: 150px auto;
+  padding: 0 20px;
+  h2{
+    border-bottom: 5px double #29aa92;
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: #333;
+  }
+  form{
+    .signUpArea{
+      border: none;
+      ul{
+        margin-top: 20px;
+        >li{
+          margin-bottom: 20px;
+          .area-style{
+            label{
+              display: inline;
+              color: #555;
+              margin-bottom: 5px;
+            }
+            input{
+              width: 100%;
+              padding: 20px 30px;
+              border: 1px solid #ccc;
+            }
+            .mes-style{
+              font-size: 14px;
+            }
+            .success-color{   //id 값에따른 색변경
+              color: green;
+            }
+            .error-color{   //id 값에따른 색변경
+              color: red
+            }
+            .help-style{  //아이디 조건 안내
+              font-size: 11px;
+              color: rgb(105, 105, 105);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*아이디 중복확인*/
+.id-check-button{
+  margin-top: 10px;
+  border: none;
+  background: #333;
+  color: #fff;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+/*이용약관*/
+#terms-section{
+  color: #666;
+
+  h3{
+    margin-top: 30px;
+    color: #29aa92;;
+  }
+  .termsBox{
+    border: 1px solid #959595;
+    padding: 2rem;
+    height: 15rem;
+    margin: 1rem 0 2rem;
+    overflow-y: scroll; /*스크롤*/
+    scrollbar-width: none;  /*스크롤바 스타일 제거*/
+    p{
+      font-size: 14px;
+      margin: 20px 0;
+    }
+  }
+  >p{
+    span{
+      margin-right: 7px;
+      color: #444;
+    }
+  }
+}
+
+/*회원가입 버튼*/
+.submit-section{
+  display: flex;
+  justify-content: center;
+  .submit-style{
+    width: 100%;
+    height: 5rem;
+    background-color: gray;
+    color: #fff;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }:hover{
+    background-color: #29aa92;
+  }
+}
+

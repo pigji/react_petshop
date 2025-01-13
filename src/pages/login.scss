@@ -1,0 +1,25 @@
+.login{
+  padding-top: 120px;
+  width: 100%;
+  max-width: 800px;
+  margin: 120px auto 80px;
+  h2{
+    text-align: center;
+    border-bottom: 5px double #29aa92;;
+    padding-bottom: 5px;
+  }
+  .loginBox{
+    margin-top: 50px;
+  }
+
+
+  /*체크박스 색상변경*/
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #29aa92;
+    border-color: #1f8673;
+  }
+  /*버튼 색상변경*/
+  button{
+    background-color: #29aa92;
+  }
+}
